@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\json.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\parser.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="head">
+      <UniqueIdentifier>{8885f91d-0443-4253-9d8d-cc74dccb150b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{fbf43d6c-b743-43f7-a479-3099af4fa72f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\json.h">
+      <Filter>head</Filter>
+    </ClInclude>
+    <ClInclude Include="src\parser.h">
+      <Filter>head</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
